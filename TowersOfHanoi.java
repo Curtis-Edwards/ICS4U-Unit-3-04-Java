@@ -19,8 +19,8 @@ final class TowersOfHanoi {
     *
     * @throws IllegalStateException if instantiation is attempted
     */
-    private Main() {
-        throw TowersOfHanoi IllegalStateException("Cannot be instantiated");
+    private TowersOfHanoi() {
+        throw new IllegalStateException("Cannot be instantiated");
     }
 
     /**
